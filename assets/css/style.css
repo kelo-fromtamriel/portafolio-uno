@@ -1,0 +1,23 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+header{
+    background-image: url('../img/bg-kelo.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: left;
+    padding-bottom: 10rem;
+}
+.h3{
+    font-family: 'Open Sans regular', sans-serif;
+    font-size: 16pt;
+    font-stretch: expanded;
+}
+footer{
+    padding-top: 10rem;
+    margin-bottom: auto;
+}
+header{
+    vertical-align: bottom;
+}
