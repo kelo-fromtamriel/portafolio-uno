@@ -38,3 +38,30 @@ header{
 #tarjetas{
     padding-top: 6vh;
 }
+h3{
+    font-family: 'Oswald, SemiBold', sans-serif;
+    font-weight: 606;
+    font-size: 25pt;
+}
+h5{
+    font-family: 'Open Sans, Light', sans-serif;
+    font-weight: lighter;
+    font-size: 25pt;
+}
+.text2{
+    line-height: 5vh;
+}
+.exefooter{
+    font-family: 'Oswald, Bold', sans-serif;
+    font-weight: 606;
+    font-size: 40pt;
+}
+.exetr{
+    font-family: 'Oswald, Bold', sans-serif;
+    font-weight: 606;
+    font-size: 52pt;
+    color: white;
+}
+.bici, .gato{
+    fill: #660066;
+}

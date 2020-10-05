@@ -54,33 +54,33 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
 
-    <section id="bartop" class="bartop fixed-top">
+    <section id="bartop" class="bartop fixed-top" scroll-behavior: smooth;>
         <nav class="navbar navbar-expand-lg navbar-dark bg-info">
             <div class="container">
-            <a class="navbar-brand eee" href="#">E</a>
-            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse text-right" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Sobre Mi <span class="sr-only"></span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Experiencia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Trabajos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-                    </li>
-                </ul>
-            </div>
+                <a class="navbar-brand eee" href="#">E</a>
+                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-right" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Sobre Mi <span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Trabajos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             </div>
         </nav>
@@ -90,7 +90,7 @@
         <section class="headerkelo">
             <header class="kelo text-light text-center pt-5 mb-1" id="kelo">
                 <h1 class="display-1 font-weight-extralight mt-4 yosoy">YO SOY</h1>
-                <hr style="width: 20%; border-color: white; border-top-width: 5px;">
+                <hr style="width: 20%; border-color: white; border-top-width: 2px;">
                 <p class=" display-1 font-weight-bold exehidalgo">Exequiel</p>
             </header>
         </section>
@@ -98,11 +98,13 @@
 
     <div class="container">
         <section id="info" class="pyo display-4 my-5 mx-5">
-            <h4 class="text-center my-5 mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni repellendus
+            <h4 class="text-center my-5 mx-5 text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                repellendus
                 fugiat accusantium, aperiam
                 repellat illum harum dolorum earum consequatur pariatur</h4>
+            <hr style="width: 7%; border-color: black; border-top-width: 3px;">
             <div class="container">
-                <div class="row h3 text-justify mx-3">
+                <div class="row h3 text-justify mx-3 mt-5 text2">
                     <div class="col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dolorem dicta
                         magnam inventore, maiores doloremque nemo quibusdam explicabo voluptates omnis sit molestias
                         repellat adipisci et cupiditate eius consequuntur debitis error?</div>
@@ -114,16 +116,17 @@
         </section>
     </div>
 
-    <section id="Experiencia" class=" container expbar text-center bg-light my-5">
-        <h1 class="text-bold mt-5">MI EXPERIENCIA</h1>
+    <section id="Experiencia" class=" container expbar text-center bg-white my-5">
+        <h1 class="text-bold mt-5">ABOUT MY LIFE</h1>
+        <hr style="width: 15%; border-color: black; border-top-width: 3px;">
         <div class="row h3">
-            <div class="col-md-6 my-3">
-                <i class="fas fa-bicycle fa-3x my-3"></i>
+            <div class="col-md-6 my-3 bici">
+                <i class="fas fa-bicycle fa-5x my-3"></i>
                 <h3>Ciclista Furioso</h3>
                 <h5>2005 - 2020</h5>
             </div>
-            <div class="col-md-6 my-3">
-                <i class="fas fa-cat fa-3x my-3"></i>
+            <div class="col-md-6 my-3 gato">
+                <i class="fas fa-cat fa-5x my-3 fa-color: info;"></i>
                 <h3>Cat Lover</h3>
                 <h5>1998 - 2020</h5>
             </div>
@@ -131,90 +134,100 @@
     </section>
 
     <section id="tarjetas" class="bg-info my-4">
-        <h1 class="text-center my-3 ">MIS ULTIMOS TRABAJOS</h1>
+        <h1 class="text-center my-3 exetr">MIS ÚLTIMOS TRABAJOS</h1>
         <hr style="width: 20%; border-color: white; border-top-width: 5px; padding-bottom: 3vh;">
         <div class="container">
-        <div class="row row-cols-1 row-cols-md-3">
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="./assets/img/cuppon.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Cuppon</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="./assets/img/cuppon.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cuppon</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="./assets/img/dmark.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">DMark</h5>
+                            <p class="card-text">This is a short card.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="./assets/img/iguana_page.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Iguana</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="./assets/img/meet_coffee.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Meet & Coffe</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="./assets/img/ricomida.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ricomida</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="./assets/img/suricata.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Suricata</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="./assets/img/dmark.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">DMark</h5>
-                        <p class="card-text">This is a short card.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="./assets/img/iguana_page.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Iguana</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="./assets/img/meet_coffee.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Meet & Coffe</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="./assets/img/ricomida.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Ricomida</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="./assets/img/suricata.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Suricata</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
         </div>
     </section>
 
     <section id="contacto" class="container text-center my-5">
         <h1>¿QUIERES SABER MAS DE MI?</h1>
         <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">
-            Single toggle
+            Click aquí
         </button>
     </section>
 
-    <footer class="bg-dark text-center text-light p-3">
+    <footer class="bg-dark text-right text-light p-3 ml-auto">
         <div class="container">
-            <p class="display-3 text-left">Exequiel</p>
-            <ul class="list-inline fa-3x">
-                <li class="list-inline-item"><i class="fab fa-linkedin"></i></li>
-                <li class="list-inline-item"><i class="fab fa-github-square"></i></li>
-                <li class="list-inline-item"><i class="fab fa-twitter-square"></i></li>
-                <li class="list-inline-item"><i class="fab fa-facebook-square"></i></li>
-            </ul>
-
+            <div class="row h3">
+                <div class="col-md-6 my-auto">
+                    <p class="display-3 text-left exefooter">EXEQUIEL</p>
+                </div>
+                <div class="col-md-6 my-auto">
+                    <ul class="list-inline align-center fa-2x">
+                        <li class="list-inline-item"><i class="fab fa-linkedin"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-github-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-twitter-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-facebook-square"></i></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
 
